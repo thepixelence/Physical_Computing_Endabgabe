@@ -38,3 +38,11 @@ Ich denke ich habe mein Ziel insofern erreicht, als das ich nun eine ungefähre 
 ## Schaltplan
 
 [Schaltplan](https://i.imgur.com/31nTQHB.png)
+
+### download code 
+
+[Download](https://github.com//thepixelence/physical_computing/archive/refs/heads/main.zip)
+
+# Verwendete Tutorials
+
+* https://create.arduino.cc/projecthub/muhamd-magdy/arduino-game-by-lcd-9a3bc2?ref=similar&ref_id=169084&offset=0
