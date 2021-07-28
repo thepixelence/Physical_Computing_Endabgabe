@@ -14,8 +14,12 @@ Ich denke ich habe mein Ziel insofern erreicht, als das ich nun eine ungefähre 
 
 # Schritt 1 
 
-[![VIDEO](https://img.youtube.com/vi/t_hAx9NmS8o/0.jpg)](https://youtu.be/cFSP8P8HFYs)
-## Komponenten
+## Entstehungsprozess:
+
+1 - Projektsuche 
+2 - Teile bestellen
+3 - Umsetzung in TinkerCAD
+4 - Umsetzung auf dem Breadboard
 
 ### Folgende Komponenten wurden benötigt:
 
@@ -34,16 +38,54 @@ Ich denke ich habe mein Ziel insofern erreicht, als das ich nun eine ungefähre 
 * Grove_LCD_RGB_Backlight-master
 * LiquidCrystal 
 
-# Schritt 2
+# Code
+
+Da der zu verwendende Code in meinem Tutorial sehr ausführlich beschrieben wurde, hatte ich die Hoffnung sehr schnell Ergebnisse zu sehen. 
+Mein verwendetes Display war nur leider nicht dasselbe, dass im Tutorial benutzt wurde, weshalb ich den Code an Stellen anpassen musste.
+
+Folgende Anpassungen musste ich vornehmen:
+
+#include <LiquidCrystal.h> -> Library für das LCD-Display 
+#include <Wire.h>
+#include <SPI.h> 
+#include "rgb_lcd.h> -> Library für das LCD-Display 
+#include <Arduino.h>
+
+rgb_lcd lcd; -> Initialisierung des LCD Display
+const int colorR = 120; -> Anpassung der Farbe des Displays
+const int colorG = 70; -> Anpassung der Farbe des Displays
+const int colorB = 70; -> Anpassung der Farbe des Displays
+lcd.begin(16, 2); -> Anpassung der Pixelangabe meines Displays
+lcd.setRGB(colorR, colorG, colorB); 
+initializeGraphics();  
 
 ## Schaltplan
 
-[Schaltplan](https://i.imgur.com/31nTQHB.png)
+<img width="959" alt="Bildschirmfoto 2021-07-28 um 11 44 35" src="https://user-images.githubusercontent.com/35604723/127351544-057f8e14-4711-41e4-888a-a2f53ee6b4ea.png">
 
-### download code 
+![IMG_4350](https://user-images.githubusercontent.com/35604723/127351855-998cec22-c427-4ece-80cd-aefbfef26726.png)
+
+
+
 
 [Download](https://github.com//thepixelence/physical_computing/archive/refs/heads/main.zip)
 
 # Verwendete Tutorials
 
 * https://create.arduino.cc/projecthub/muhamd-magdy/arduino-game-by-lcd-9a3bc2?ref=similar&ref_id=169084&offset=0
+
+First steps:
+### download code ![Uploading Bildschirmfoto 2021-07-28 um 11.44.35.png…]()
+
+1 - PlattformIO in Visual Studio Code installieren
+2 - Neues Projekt starten und Microcontroller auswählen (hier Arduino)
+3 - FastLED Library installieren
+4 - Daten aus dem download ZIP in die main.cpp Datei kopieren
+5 - Dateien auf Arduino laden
+Was zu beachten ist:
+
+* Alle Dateien im Repository müssen Lokal gespeichert sein. Die Dateistruktur darf außerdem nicht verändert werden.
+* Um den Code zu bearbeiten muss ein Editor wie z.B. Visual Studio Code verwendet werden. ( https://code.visualstudio.com/ )
+* Um Code auf das Arduino hochzuladen, wird ein Plugin namens PlattformIO benötigt. Dieses kann über Visual Studio Code Installiert werden.
+* Um Code zu verändern, öffnen sie die main.cpp Datei im SRC ordner.
+* Die anderen Dateien sollten wenn möglich unverändert bleiben.
