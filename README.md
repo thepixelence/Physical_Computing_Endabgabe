@@ -1,5 +1,6 @@
-# physical_computing
- Abgabe zum Kurs physical Computing SoSE 2021
+# Physical Computing 
+
+Abgabe zum Kurs Physical Computing SoSE 2021
 
 Repository zur ersten Aufgabe im Kurs Physical Computing.
 
@@ -11,6 +12,9 @@ Ich wählte den Kurs Physical Computing vor allem um eine erste Einführung ins 
 Durch den eher Programmierlastigen teil meines Projekts konnte ich mich weiter in den Software-Anteil von Physical Computing einarbeiten. Es war sehr motivierend schnelle Ergebnisse zu sehen, auch ohne vorheriges Wissen über Elektronik oder Programmierung in C/C++. 
 
 Ich denke ich habe mein Ziel insofern erreicht, als das ich nun eine ungefähre Vorstellung davon habe, was in diesem Bereich für mich möglich ist. Mit der Fertigstellung meines Projekts habe ich einen Ausgangspunkt an dem ich mich weiter in die Welt der Mikrocontroller einarbeiten kann. 
+
+
+https://user-images.githubusercontent.com/35604723/127353151-1fbb592c-2558-47f3-a91e-4cb8d00b1c2c.mp4
 
 # Schritt 1 
 
@@ -87,3 +91,5 @@ Folgende Anpassungen musste ich vornehmen:
 * Um Code auf das Arduino hochzuladen, wird ein Plugin namens PlattformIO benötigt. Dieses kann über Visual Studio Code Installiert werden.
 * Um Code zu verändern, öffnen sie die main.cpp Datei im SRC ordner.
 * Die anderen Dateien sollten wenn möglich unverändert bleiben.
+
+
