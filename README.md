@@ -37,4 +37,4 @@ Ich denke ich habe mein Ziel insofern erreicht, als das ich nun eine ungefähre 
 
 ## Schaltplan
 
-![Schaltplan](../assets/Schaltplan.png?raw=true "Title")
+![Schaltplan](https://imgur.com/31nTQHB)
