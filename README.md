@@ -16,10 +16,10 @@ Ich denke ich habe mein Ziel insofern erreicht, als das ich nun eine ungefähre 
 
 ## Entstehungsprozess:
 
-1 - Projektsuche 
-2 - Teile bestellen
-3 - Umsetzung in TinkerCAD
-4 - Umsetzung auf dem Breadboard
+* 1 - Projektsuche 
+* 2 - Teile bestellen
+* 3 - Umsetzung in TinkerCAD
+* 4 - Umsetzung auf dem Breadboard
 
 ### Folgende Komponenten wurden benötigt:
 
@@ -45,19 +45,19 @@ Mein verwendetes Display war nur leider nicht dasselbe, dass im Tutorial benutzt
 
 Folgende Anpassungen musste ich vornehmen:
 
-#include <LiquidCrystal.h> -> Library für das LCD-Display 
-#include <Wire.h>
-#include <SPI.h> 
-#include "rgb_lcd.h> -> Library für das LCD-Display 
-#include <Arduino.h>
+* #include <LiquidCrystal.h> -> Library für das LCD-Display 
+* #include <Wire.h>
+* #include <SPI.h> 
+* #include "rgb_lcd.h> -> Library für das LCD-Display 
+* #include <Arduino.h>
 
-rgb_lcd lcd; -> Initialisierung des LCD Display
-const int colorR = 120; -> Anpassung der Farbe des Displays
-const int colorG = 70; -> Anpassung der Farbe des Displays
-const int colorB = 70; -> Anpassung der Farbe des Displays
-lcd.begin(16, 2); -> Anpassung der Pixelangabe meines Displays
-lcd.setRGB(colorR, colorG, colorB); 
-initializeGraphics();  
+* rgb_lcd lcd; -> Initialisierung des LCD Display
+* const int colorR = 120; -> Anpassung der Farbe des Displays
+* const int colorG = 70; -> Anpassung der Farbe des Displays
+* const int colorB = 70; -> Anpassung der Farbe des Displays
+* lcd.begin(16, 2); -> Anpassung der Pixelangabe meines Displays
+* lcd.setRGB(colorR, colorG, colorB); 
+* initializeGraphics();  
 
 ## Schaltplan
 
@@ -66,23 +66,19 @@ initializeGraphics();
 ![IMG_4350](https://user-images.githubusercontent.com/35604723/127351855-998cec22-c427-4ece-80cd-aefbfef26726.png)
 
 
-
-
-[Download](https://github.com//thepixelence/physical_computing/archive/refs/heads/main.zip)
-
 # Verwendete Tutorials
 
 * https://create.arduino.cc/projecthub/muhamd-magdy/arduino-game-by-lcd-9a3bc2?ref=similar&ref_id=169084&offset=0
 
 First steps:
-[Download Code](thepixelence/physical_computing/archive/refs/heads/main.zip)
+[Download Code](https://github.com//thepixelence/physical_computing/archive/refs/heads/main.zip)
 
 
-1 - PlattformIO in Visual Studio Code installieren
-2 - Neues Projekt starten und Microcontroller auswählen (hier Arduino)
-3 - FastLED Library installieren
-4 - Daten aus dem download ZIP in die main.cpp Datei kopieren
-5 - Dateien auf Arduino laden
+* 1 - PlattformIO in Visual Studio Code installieren
+* 2 - Neues Projekt starten und Microcontroller auswählen (hier Arduino)
+* 3 - FastLED Library installieren
+* 4 - Daten aus dem download ZIP in die main.cpp Datei kopieren
+* 5 - Dateien auf Arduino laden
 Was zu beachten ist:
 
 * Alle Dateien im Repository müssen Lokal gespeichert sein. Die Dateistruktur darf außerdem nicht verändert werden.
