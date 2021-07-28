@@ -94,7 +94,7 @@ Folgende Anpassungen musste ich vornehmen:
 
 # Nächste Schritte 
 
-* Gehäuse bauen ( Ich würde gerne ein Gehäuse bauen in dem Ich den Arduiono und die Kabel verstecken kann. Wenn man dann den Arduino mit einer Batterie verbindet könnte man somit einen "Mini-GameBoy" bauen. 
+* Gehäuse bauen (Ich würde gerne ein Gehäuse bauen in dem Ich den Arduiono und die Kabel verstecken kann. Wenn man dann den Arduino mit einer Batterie verbindet könnte man somit einen "Mini-GameBoy" bauen.)
 
 * Softwareseitig könnte man das Spiel um ein Menü oder andere Hindernisse erweitern. Eine Highscore Funktion wäre auch eine Interessante Idee.
 
