@@ -92,4 +92,10 @@ Folgende Anpassungen musste ich vornehmen:
 * Um Code zu verändern, öffnen sie die main.cpp Datei im SRC ordner.
 * Die anderen Dateien sollten wenn möglich unverändert bleiben.
 
+# Nächste Schritte 
+
+* Gehäuse bauen ( Ich würde gerne ein Gehäuse bauen in dem Ich den Arduiono und die Kabel verstecken kann. Wenn man dann den Arduino mit einer Batterie verbindet könnte man somit einen "Mini-GameBoy" bauen. 
+
+* Softwareseitig könnte man das Spiel um ein Menü oder andere Hindernisse erweitern. Eine Highscore Funktion wäre auch eine Interessante Idee.
+
 
