@@ -75,7 +75,8 @@ initializeGraphics();
 * https://create.arduino.cc/projecthub/muhamd-magdy/arduino-game-by-lcd-9a3bc2?ref=similar&ref_id=169084&offset=0
 
 First steps:
-### ![Download Code](thepixelence/physical_computing/archive/refs/heads/main.zip)
+[Download Code](thepixelence/physical_computing/archive/refs/heads/main.zip)
+
 
 1 - PlattformIO in Visual Studio Code installieren
 2 - Neues Projekt starten und Microcontroller auswählen (hier Arduino)
