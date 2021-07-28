@@ -14,6 +14,7 @@ Ich denke ich habe mein Ziel insofern erreicht, als das ich nun eine ungefähre 
 
 # Schritt 1 
 
+[![VIDEO](https://img.youtube.com/vi/t_hAx9NmS8o/0.jpg)](https://youtu.be/cFSP8P8HFYs)
 ## Komponenten
 
 ### Folgende Komponenten wurden benötigt:
