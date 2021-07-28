@@ -70,7 +70,7 @@ Folgende Anpassungen musste ich vornehmen:
 
 * https://create.arduino.cc/projecthub/muhamd-magdy/arduino-game-by-lcd-9a3bc2?ref=similar&ref_id=169084&offset=0
 
-First steps:
+# First steps:
 [Download Code](https://github.com//thepixelence/physical_computing/archive/refs/heads/main.zip)
 
 
@@ -79,7 +79,8 @@ First steps:
 * 3 - FastLED Library installieren
 * 4 - Daten aus dem download ZIP in die main.cpp Datei kopieren
 * 5 - Dateien auf Arduino laden
-Was zu beachten ist:
+
+# Was zu beachten ist:
 
 * Alle Dateien im Repository müssen Lokal gespeichert sein. Die Dateistruktur darf außerdem nicht verändert werden.
 * Um den Code zu bearbeiten muss ein Editor wie z.B. Visual Studio Code verwendet werden. ( https://code.visualstudio.com/ )
