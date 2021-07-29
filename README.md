@@ -2,7 +2,7 @@
 
 Abgabe zum Kurs Physical Computing SoSE 2021
 
-Repository zur ersten Aufgabe im Kurs Physical Computing.
+Repository zur Endabgabe im Kurs Physical Computing.
 
 Tom Schmitt | Sommersemester 21 | Intermedia Design
 
