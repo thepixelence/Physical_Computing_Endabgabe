@@ -96,6 +96,10 @@ Folgende Anpassungen musste ich vornehmen:
 
 * Gehäuse bauen (Ich würde gerne ein Gehäuse bauen in dem Ich den Arduiono und die Kabel verstecken kann. Wenn man dann den Arduino mit einer Batterie verbindet könnte man somit einen "Mini-GameBoy" bauen.)
 
+<img width="2560" alt="Bildschirmfoto 2021-07-29 um 18 46 35" src="https://user-images.githubusercontent.com/35604723/127532263-b894d6ad-484c-44a4-acae-c6464e184de3.png">
+
+Dieses Modell müsste dann noch im 3D Druck Verfahren gefertigt werden und der Mikrocontroller mit einer Batterie verlötet werden. 
+
 * Softwareseitig könnte man das Spiel um ein Menü oder andere Hindernisse erweitern. Eine Highscore Funktion wäre auch eine Interessante Idee.
 
 
